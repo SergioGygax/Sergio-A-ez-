@@ -1,0 +1,48 @@
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post{
+    text-align: center;
+    width: 50%;
+    margin: 50px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    background-color: white;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.post-header h2 {
+    text-align: left;
+}
+
+.post-header {
+    text-align: right;
+}
+
+.post-body img {
+    width: 100%;
+}
+
+.post-footer {
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
