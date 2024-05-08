@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: black;
 }
 
 .main {
@@ -11,7 +11,7 @@ body {
 
 .post{
     text-align: center;
-    width: 50%;
+    width: 30%;
     margin: 50px;
     height: auto;
 }
@@ -29,12 +29,19 @@ h1 {
     background-color: white;
 }
 
-.post-header h2 {
-    text-align: left;
+.post-header i {
+    font-size: 30px;
+    margin: 10px;
 }
 
-.post-header {
-    text-align: right;
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    font-size: small;
+    margin: 2px 10px;
+    ;
 }
 
 .post-body img {
@@ -45,4 +52,9 @@ h1 {
     background-color: white;
     text-align: center;
     font-size: 35px;
+}
+
+.post-icons i {
+    display: inline;
+    font-size: 20px;
 }
